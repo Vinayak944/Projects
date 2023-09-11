@@ -1,6 +1,6 @@
 import random
 
-class Dice:
+class Dice():
 
     def roll(self):
         x = random.randint(0,6)
