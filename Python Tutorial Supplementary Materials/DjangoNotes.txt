@@ -1,0 +1,11 @@
+Django
+
+Create a new project : django-admin startproject Project01 .
+	arguments: startproject, creates a project in the 			current folder because of the '.' in the command, if the '.' is not there it 	creates an extra folder in the 	folder.
+
+Runs the server: python manage.py runserver
+
+Creates an app(pakage) in the project: python manage.py startapp products
+
+Creates a subdirectory inside another directory(app inside an app) : python manage.py startapp new_app ./products/new_app
+ 
